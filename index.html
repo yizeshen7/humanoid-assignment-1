@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Lato"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Home | NACRO</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+      <a class="navbar-brand" href="#"
+        ><img id="nav-logo" src="images/nacro.png" alt="NACRO logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="#navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <!-- Placeholder -->
+        <ul class="navbar-nav mr-auto"></ul>
+        <!-- ********** -->
+
+        <ul id="right-nav" class="nav nav-pills justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link custom-active" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="conferences/conferences.html"
+              >Conferences & Events</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Membership</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Membership</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Volunteers & Committees</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Resources</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Member Resources</a>
+              <a class="dropdown-item" href="resources/public-resources.html"
+                >Public Resources</a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >More</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">About</a>
+              <a class="dropdown-item" href="#">Contact</a>
+              <a class="dropdown-item" href="#">Archive</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-dark text-white">Member Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- title slide -->
+    <div id="carouselTitle" class="carousel-slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-block w-100"
+            src="images/carousel3-resized.jpg"
+            alt="First slide"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-text">
+              <h1 class="title">Join. Connect. Grow.</h1>
+              <h2 class="sub-title">
+                NACRO is a network of U.S. and international corporate relations
+                professionals that is dedicated to providing professional
+                development opportunities and sharing best practices
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="images/carousel2-resized.jpg"
+            alt="Second slide"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-text">
+              <h1 class="title">Join. Connect. Grow.</h1>
+              <h2 class="sub-title">
+                NACRO is a network of U.S. and international corporate relations
+                professionals that is dedicated to providing professional
+                development opportunities and sharing best practices
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="images/carousel3-resized.jpg"
+            alt="Third slide"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-text">
+              <h1 class="title">Join. Connect. Grow.</h1>
+              <h2 class="sub-title">
+                NACRO is a network of U.S. and international corporate relations
+                professionals that is dedicated to providing professional
+                development opportunities and sharing best practices
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- should we be using breaks? is it good practice? -->
+    <br />
+
+    <!-- up-coming events -->
+    <div id="widgetEvent">
+      <div class="container">
+        <h1>Upcoming Events</h1>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-header">Tuesday, December 8th</div>
+              <img
+                src="images/card-img-20.jpg"
+                class="card-img-top"
+                alt="group talking"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Webinar: What is a Big Ideas Initiative? Aligning Industry
+                  Priorities with Fundraising Campaigns
+                </h5>
+                <p class="card-text">
+                  <small class="text-muted"
+                    ><img class="small-icons" src="images/time-line.png" />
+                    Tuesday, DDecember 8th</small
+                  >
+                </p>
+                <p class="card-text">
+                  <small class="text-muted"
+                    ><img class="small-icons" src="images/calendar.png" /> 2:00
+                    pm - 3:00 pm EST
+                  </small>
+                </p>
+
+                <p class="card-text">
+                  "Big Ideas" represent transformative initiatives designed to
+                  strengthen areas of strategic importance to a university,
+                  while addressing important business and social challenges.
+                  <a href="https://nacro.memberclicks.net/bigideas#/">MORE ></a>
+                </p>
+              </div>
+              <a
+                href="https://nacro.memberclicks.net/BIGIDEAS#/"
+                class="btn btn-dark btn-block"
+                >Register</a
+              >
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-header">Wednesday, December 16th</div>
+              <img
+                src="images/card-img-6.jpg"
+                class="card-img-top"
+                alt="group talking"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Member Meet-up: What is a Big Ideas Initiative? Aligning
+                  Industry Priorities with Fundraising Campaigns
+                </h5>
+                <p class="card-text">
+                  <small class="text-muted"
+                    ><img class="small-icons" src="images/time-line.png" />
+                    Wednesday, December 16th</small
+                  >
+                </p>
+                <p class="card-text">
+                  <small class="text-muted"
+                    ><img class="small-icons" src="images/calendar.png" /> 2:00
+                    pm - 3:00 pm EST
+                  </small>
+                </p>
+
+                <p class="card-text">
+                  You watched the webinar, now join us for a conversation on Big
+                  Ideas Initiative.
+                  <a
+                    href="https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fnacro.memberclicks.net%2FBIGIDEAS&data=04%7C01%7CPTrakas%40usf.edu%7Cf8d39da91135475bd60508d881ce6862%7C741bf7dee2e546df8d6782607df9deaa%7C0%7C0%7C637402070802202306%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=u3qELzMde0qWLh0FXDqUWijqRCMFos84WBu5zBXXrOw%3D&reserved=0"
+                    >MORE ></a
+                  >
+                </p>
+              </div>
+              <a
+                href="https://nacro.memberclicks.net/BIGIDEAS#/"
+                class="btn btn-dark btn-block"
+                >Register</a
+              >
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-header">Wednesday, January 20th</div>
+              <img
+                src="images/nacro-card-img.jpg"
+                class="card-img-top"
+                alt="group talking"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  NACRO Panel Discussion: Alumni Workplace Engagement - Building
+                  Bridges Between Your Alumni, Where They Work, and Your
+                  Institution
+                </h5>
+                <p class="card-text">
+                  <small class="text-muted"
+                    ><img class="small-icons" src="images/time-line.png" />
+                    Wednesday, January 20th</small
+                  >
+                </p>
+                <p class="card-text">
+                  <small class="text-muted"
+                    ><img class="small-icons" src="images/calendar.png" /> 2:00
+                    pm - 3:00 pm EST
+                  </small>
+                </p>
+
+                <p class="card-text">
+                  Imagine a bridge that connects three “islands”: a university,
+                  a company, and employees of that company who are graduates of
+                  the university.
+                  <a
+                    href="https://nacrocon.org/blog/nacro-panel-discussion-alumni-workplace-engagement-building-bridges-between-your-alumni-where"
+                    >MORE ></a
+                  >
+                </p>
+              </div>
+              <a
+                href="https://nacro.memberclicks.net/alumniworkplace#/"
+                class="btn btn-dark btn-block"
+                >Register</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+
+    <br />
+
+    <!-- conference & virtual Events + publications card -->
+    <div class="container">
+      <h1>About Us</h1>
+
+      <div class="row">
+        <div class="col col-md-12 col-lg-12">
+          <div class="card mb-3 h-100" style="max-width: 1024px">
+            <div class="row no-gutters">
+              <div class="col-md-6">
+                <img
+                  src="images/card-img-3.jpg"
+                  class="card-img"
+                  alt="conference-virtual-events"
+                />
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h2 class="card-title">Conferences & Virtual Events</h2>
+                  <p class="card-text">
+                    The purpose of this session is to provide insight and
+                    guidance to people while they are working to respond to
+                    NACRO’s first Gold Standards Financial Metrics Survey.
+                    During this meet-up, you will hear from two.
+                  </p>
+                  <a href="https://nacrocon.org/2020-virtual-conference"
+                    ><button class="btn btn-dark">
+                      Learn more about conferences
+                    </button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-md-12 col-lg-12">
+          <div class="card mb-3 h-100" style="max-width: 1024px">
+            <div class="row no-gutters">
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h2 class="card-title">Publications</h2>
+                  <p class="card-text">
+                    The purpose of this session is to provide insight and
+                    guidance to people while they are working to respond to
+                    NACRO’s first Gold Standards Financial Metrics Survey.
+                    During this meet-up, you will hear from two.
+                  </p>
+                  <a href="https://nacrocon.org/resources"
+                    ><button class="btn btn-dark">
+                      Read our publications
+                    </button></a
+                  >
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <img
+                  src="images/card-img-4.jpg"
+                  class="card-img"
+                  alt="conference-virtual-events"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <!-- news -->
+    <div class="container">
+      <h1>News</h1>
+      <div class="row">
+        <div class="col col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img
+              src="images/card-img-7.jpg"
+              class="card-img-top"
+              alt="group talking"
+            />
+            <div class="card-body">
+              <h5 class="card-title">SAVE THE DATE for our 2022 Conference</h5>
+              <p class="card-text">
+                Join us in December 18th for the 2022 NACRO Annual Converence at
+                Minneapolis!
+              </p>
+              <a
+                href="https://nacrocon.org/blog/nacro-panel-discussion-alumni-workplace-engagement-building-bridges-between-your-alumni-where"
+                ><button class="btn btn-dark">Learn More</button></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img
+              src="images/card-img-21-resized.jpg"
+              class="card-img-top"
+              alt="group talking"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Member Spotlight</h5>
+              <p class="card-text">
+                Q&A with John Doe, Morehouse School of Medicine.
+              </p>
+              <a href="https://nacrocon.org/blog/member-spotlight-11"
+                ><button class="btn btn-dark">Learn More</button></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img
+              src="images/card-img-8.jpg"
+              class="card-img-top"
+              alt="group talking"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Member Meet-Up</h5>
+              <p class="card-text">
+                Tips and tricks for gathering data and write for Gold Standards
+                Survey.
+              </p>
+              <a
+                href="https://nacrocon.org/blog/nacro-member-meet-what-big-ideas-initiative-aligning-industry-priorities-fundraising-campaigns"
+                ><button class="btn btn-dark">Learn More</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <!-- photos from our events -->
+    <div class="container">
+      <h1>Photo Gallery</h1>
+      <h6>
+        Check out what we were up to at our past conference and workshops.
+      </h6>
+      <div id="carouselTitle" class="carousel-slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="images/card-img-23.jpg"
+              alt="First slide"
+            />
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="images/card-img-24.jpg"
+              alt="Second slide"
+            />
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="images/card-img-25.jpg"
+              alt="Third slide"
+            />
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts to support Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <footer class="bg-light">
+    <hr />
+    <div class="container">
+      <br />
+      <div class="row">
+        <div class="col-10 col-md-4">
+          <p id="footer-name" class="font-weight-bold">NACRO</p>
+          <p>Join. Connect. Grow.</p>
+          <p>&copy; NACRO 2020. All rights reserved.</p>
+          <br />
+        </div>
+        <div class="col-3 col-md-2 sitemap">
+          <a href="../Home/home.html">Home</a>
+          <a href="../conferences/conferences.html">Conferences</a>
+          <a href="#">Membership</a>
+        </div>
+        <div class="col-3 col-md-3 sitemap">
+          <a href="#">Resources</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <br />
+        </div>
+        <div class="col-12 col-md-3">
+          <p>Connect with Us</p>
+          <a
+            class="social-img"
+            target="_blank"
+            href="https://www.linkedin.com/groups/125703"
+            ><img
+              class="social-img"
+              src="images/linkedin-fill.png"
+              alt="Linkedin"
+          /></a>
+          <a
+            class="social-img"
+            target="_blank"
+            href="https://twitter.com/NACROCON"
+            ><img
+              class="social-img"
+              src="images/twitter-fill.png"
+              alt="Twitter"
+          /></a>
+          <a
+            class="social-img"
+            target="_blank"
+            href="https://www.facebook.com/NACROCON/"
+            ><img
+              class="social-img"
+              src="images/facebook-fill.png"
+              alt="Facebook"
+          /></a>
+          <a href="mailto:info@NACROonline.org">info@NACROonline.org</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
