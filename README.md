@@ -14,3 +14,5 @@ The data in this file is then preprocessed and cleaned by running the data_prepr
 The main.py file creates text embeddings using TFIDF for the cleaned data, and computes pairwise cosine similarities on the sparse matrix produced by tfidf.
 
 It also recieves HTTP POST requests (localhost:5000/recommend) and finds the 10 most similar articles to the input title and returns the results as a json.
+
+Documentation: https://docs.google.com/document/d/1ZV1FE4xIsXG7DT-tsTGvlFxwTL_Z_RK2l0Nglax0EaQ/edit?usp=sharing
