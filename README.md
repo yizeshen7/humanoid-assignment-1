@@ -1,11 +1,13 @@
 # humanoid-assignment-1
 Authors: Aditti Ramsisaria, Yize Shen
 
-This project is a News Recommendation Engine for the BBC News Dataset based on basic NLP techniques like text embeddings.
+This project is a News Recommendation Engine for the BBC News Dataset based on basic NLP techniques like text embeddings for 16-264 assgn 1 (Sensors).
 
-The BBC dataset (available: http://mlg.ucd.ie/datasets/bbc.html) is first converted into a .csv file by running the create_csv.py file.
+The sensor input under consideration is text input through the keypad of a laptop.
 
 Pipeline:
+
+The BBC dataset (available: http://mlg.ucd.ie/datasets/bbc.html) is first converted into a .csv file by running the create_csv.py file.
 
 The data in this file is then preprocessed and cleaned by running the data_preprocessing.py file, which saves the cleaned/tagged data as tagged_data.csv.
 
